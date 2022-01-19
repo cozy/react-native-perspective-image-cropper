@@ -1,24 +1,21 @@
 # React Native perspective image cropper 📐🖼
 
-A component that allows you to perform custom image crop and perspective correction !
+This library allows you to perform custom image crop and perspective correction.
 
 ![Demo image](https://s3-eu-west-1.amazonaws.com/michaelvilleneuve/demo-crop.gif)
 
-##### Designed to work with React Native Document Scanner
+This is a fork from this [repository](https://github.com/Michaelvilleneuve/react-native-perspective-image-cropper) and is designed to work with this [document detection library](https://github.com/cozy/react-native-document-scanner).
 
-https://github.com/Michaelvilleneuve/react-native-document-scanner
 
-![Demo gif](https://raw.githubusercontent.com/Michaelvilleneuve/react-native-document-scanner/master/images/demo.gif)
 
 ## Installation 🚀🚀
 
-`$ npm install react-native-perspective-image-cropper --save`
+`$ yarn add react-native-perspective-image-cropper`
 
-`$ react-native link react-native-perspective-image-cropper`
 
 This library uses react-native-svg, you must install it too. See https://github.com/react-native-community/react-native-svg for more infos.
 
-#### Android Only
+### Android Only
 
 If you do not already have openCV installed in your project, add this line to your `settings.gradle`
 
@@ -112,3 +109,58 @@ class CropView extends Component {
   }
 }
 ```
+
+## Community
+
+### What's Cozy?
+
+<div align="center">
+  <a href="https://cozy.io">
+    <img src="https://cdn.rawgit.com/cozy/cozy-site/master/src/images/cozy-logo-name-horizontal-blue.svg" alt="cozy" height="48" />
+  </a>
+ </div>
+ </br>
+
+[Cozy] is a platform that brings all your web services in the same private space.  With it, your webapps and your devices can share data easily, providing you with a new experience. You can install Cozy on your own hardware where no one's tracking you.
+
+
+### Get in touch
+
+You can reach the Cozy Community by:
+
+- Chatting with us on IRC [#cozycloud on Freenode][freenode]
+- Posting on our [Forum][forum]
+- Posting issues on the [Github repos][github]
+- Say Hi! on [Twitter][twitter]
+
+
+## License
+
+This library is developed by cozy and distributed under the [AGPL v3 license][agpl-3.0].
+
+
+
+[cozy]: https://cozy.io "Cozy Cloud"
+[setup]: https://dev.cozy.io/#set-up-the-development-environment "Cozy dev docs: Set up the Development Environment"
+[yarn]: https://yarnpkg.com/
+[yarn-install]: https://yarnpkg.com/en/docs/install
+[cozy-ui]: https://github.com/cozy/cozy-ui
+[cozy-client-js]: https://github.com/cozy/cozy-client-js/
+[cozy-stack-docker]: https://github.com/cozy/cozy-stack/blob/master/docs/client-app-dev.md#with-docker
+[doctypes]: https://cozy.github.io/cozy-doctypes/
+[bill-doctype]: https://github.com/cozy/cozy-konnector-libs/blob/master/models/bill.js
+[konnector-doctype]: https://github.com/cozy/cozy-konnector-libs/blob/master/models/base_model.js
+[konnectors]: https://github.com/cozy/cozy-konnector-libs
+[agpl-3.0]: https://www.gnu.org/licenses/agpl-3.0.html
+[contribute]: CONTRIBUTING.md
+[tx]: https://www.transifex.com/cozy/
+[tx-signin]: https://www.transifex.com/signin/
+[tx-app]: https://www.transifex.com/cozy/<SLUG_TX>/dashboard/
+[tx-client]: http://docs.transifex.com/client/
+[freenode]: http://webchat.freenode.net/?randomnick=1&channels=%23cozycloud&uio=d4
+[forum]: https://forum.cozy.io/
+[github]: https://github.com/cozy/
+[twitter]: https://twitter.com/cozycloud
+[nvm]: https://github.com/creationix/nvm
+[ndenv]: https://github.com/riywo/ndenv
+[jest]: https://facebook.github.io/jest/
